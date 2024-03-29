@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2><em><strong>Your Form</strong></em></h2>
+    <form action="backend.js">
+        <div>
+
+            नाम क्या है भाई: <input type="name" name="myName"></div><br>
+<div>
+    आपकी फोटो डालो ना एक: <input type="file"></div><br>
+<div>
+    खाना तो खाया ही होगा: <input type="checkbox" checked   > (Karan Upashi t tu rahat nahi tu kdhi)       </div><br>
+<div>
+    Email id दो ना भाई: <input type="email"></div><br>
+<div>
+    नंबर मिलेगा क्या: <input type="text"  number="=10">      DOB: <input type="date"> </div><br>
+   
+    <div>
+        सट्ट्याचा नंबर सांग न एक:  <input type="number"> 
+    </div><br>
+  <div> 
+    आज का दिन कैसे गया <textarea name="Niks"  cols="15" rows="3"></textarea></div><br>
+<div>
+    निखिल भाई के आगे कोई बोल सकता है क्या? हा: <input type="radio" name="nhh"> निखिन भाई: <input type="radio" name="nhh"></div><br>
+<div>
+    जेंडर बताओ आपका: Male <input type="radio" name="myGender"> Female <input type="radio"> Gay/Transgender <input type="radio" name="myGender" name="myGender"></div><br>
+<div>
+    <input type="submit" value="सबमिट">           <input type="reset" value=" सब गायब "></div><br>
+
+    
+
+    </form>
+    
+</body>
+</html>
